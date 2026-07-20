@@ -15,15 +15,15 @@ website:
       - href: cv.pdf
         text: CV
 
-    tools:
-      - icon: linkedin
-        href: "https://www.linkedin.com/in/einar-paz-6a639aa2/"
-        aria-label: LinkedIn
-        target: _blank
+    # tools:
+    #   - icon: linkedin
+    #     href: "https://www.linkedin.com/in/einar-paz-6a639aa2/"
+    #     aria-label: LinkedIn
+    #     target: _blank
 
-      - icon: envelope
-        href: "mailto:einarpaz@utexas.edu"
-        aria-label: Email
+    #   - icon: envelope
+    #     href: "mailto:einarpaz@utexas.edu"
+    #     aria-label: Email
 
   page-footer:
     center: "© 2026 Einar Paz"
