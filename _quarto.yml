@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Einar Paz"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.pdf
+        text: CV
+
+  page-footer:
+    center: "© 2026 Einar Paz"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false

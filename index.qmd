@@ -1,0 +1,17 @@
+---
+title: "Einar Paz"
+subtitle: "PhD Student in Economics"
+---
+
+Welcome!
+
+I am a Ph.D. student in the Department of Economics at The University of Texas at Austin.
+
+My research interests are in macroeconomics, behavioral macroeconomics, monetary economics, and labor economics.
+
+## Contact
+
+Department of Economics  
+The University of Texas at Austin  
+
+Email: [einarpaz@utexas.edu](mailto:einarpaz@utexas.edu)
