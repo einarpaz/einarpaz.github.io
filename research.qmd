@@ -4,19 +4,61 @@ title: "Research"
 
 ## Working Papers
 
+:::: {.research-item}
+
 ### Rational Inattention in Wage Growth Expectations
 
-**Draft:** Coming soon!
+::: {.research-meta}
 
+**Draft:** Coming soon
+<!-- **Draft:** [PDF](paz-rational-inattention-wage-expectations.pdf){target="_blank"} -->
+<!-- [Paper](paper.pdf){target="_blank"} · [Slides](slides.pdf){target="_blank"} · [Replication files](https://github.com/USERNAME/REPOSITORY){target="_blank"} -->
+
+:::
+
+Using data from the New York Fed's Survey of Consumer Expectations, I document that wage growth expectations remain anchored and unresponsive even during inflationary episodes in which inflation expectations respond strongly. To explain these patterns, I develop a rational inattention model embedded in a standard New Keynesian framework with price and wage rigidities. Households cannot disentangle two structural shocks that have similar effects on inflation but opposite effects on wage growth. As a result, their inferred effects on expected wage growth partially offset, generating muted wage growth expectations consistent with the survey evidence.
+
+::::
 
 ## Work in Progress
 
+:::: {.research-item}
+
 ### Memory, Frequency Bias, and Inflation Expectations
+
+::: {.research-meta}
+
+<!-- **Draft:** In progress -->
+
+:::
+
+<!-- Briefly describe the research question, methodology, and expected contribution of the project. Two or three sentences are generally enough for a work in progress. -->
+
+::::
+
+:::: {.research-item}
 
 ### Subjective Inflation-Unemployment Beliefs
 
-with Anushka Mitra (Federal Reserve Board) and Prachi Srivastava (Heidelberg University)
+::: {.research-meta}
+
+**With:** [Anushka Mitra](https://anushkamitra.com/){target="_blank"} and [Prachi Srivastava](https://srivastava-prachi.github.io/){target="_blank"}
+<!-- **Draft:** In progress -->
+
+:::
+
+<!-- Briefly describe the project here. -->
+
+::::
+
+:::: {.research-item}
 
 ### The Macroeconomic Impacts of Weather Shocks: Insights from the ENSO Phenomenon
 
+::: {.research-meta}
+
 **Draft:** Available upon request.
+
+::: 
+
+::::

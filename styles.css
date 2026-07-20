@@ -14,3 +14,80 @@ h1, h2, h3 {
 main {
   max-width: 900px;
 }
+
+/* Research page */
+
+.research-item {
+  margin-bottom: 2.25rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #d9dee3;
+}
+
+.research-item:last-child {
+  border-bottom: none;
+}
+
+.research-item h3 {
+  margin-bottom: 0.4rem;
+  font-size: 1.3rem;
+}
+
+.research-meta {
+  color: #5f6368;
+  margin-bottom: 0.9rem;
+}
+
+.research-meta p {
+  margin-bottom: 0.25rem;
+}
+
+/* Homepage introduction */
+
+.home-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.home-text {
+  flex: 1;
+}
+
+.home-photo {
+  flex: 0 0 240px;
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.contact-links {
+  margin-top: 0.75rem;
+  font-weight: 500;
+}
+
+/* Adjust the homepage for phones and narrow screens */
+
+@media (max-width: 768px) {
+  .home-intro {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+
+  .home-photo {
+    flex: none;
+    width: 100%;
+  }
+
+  .profile-photo {
+    max-width: 210px;
+  }
+}

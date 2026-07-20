@@ -3,15 +3,40 @@ title: "Einar Paz"
 subtitle: "PhD Student in Economics"
 ---
 
+:::: {.home-intro}
+
+::: {.home-text}
+
 Welcome!
 
-I am a Ph.D. student in the Department of Economics at The University of Texas at Austin.
+I am a PhD student in Economics at [The University of Texas at Austin](https://liberalarts.utexas.edu/economics/){target="_blank"}.
 
 My research interests are in macroeconomics, behavioral macroeconomics, monetary economics, and labor economics.
+
+<!-- [Research](research.qmd) · [Curriculum Vitae](cv.pdf){target="_blank"} -->
+
+:::
+
+::: {.home-photo}
+
+![](images/profile.jpg){.profile-photo fig-alt="Professional portrait of Einar Paz"}
+
+:::
+
+::::
 
 ## Contact
 
 Department of Economics  
 The University of Texas at Austin  
+Austin, Texas
 
 Email: [einarpaz@utexas.edu](mailto:einarpaz@utexas.edu)
+
+::: {.contact-links}
+
+[Curriculum Vitae](cv.pdf){target="_blank"} ·
+[LinkedIn](www.linkedin.com/in/einar-paz-6a639aa2){target="_blank"} 
+<!-- [UT Austin profile](YOUR-UT-PROFILE-ADDRESS){target="_blank"} -->
+
+:::
