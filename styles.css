@@ -29,7 +29,7 @@ main {
 
 .research-item h3 {
   margin-bottom: 0.4rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .research-meta {
@@ -39,10 +39,18 @@ main {
 
 .research-meta p {
   margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.research-item > p {
+  font-size: 0.8rem;
 }
 
 .about-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+  max-width: 200px;
+  max-height: 220px;
+}
+
+.about-entity .subtitle {
+  font-size: 0.9rem;
 }
