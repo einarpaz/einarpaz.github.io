@@ -13,7 +13,7 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: cv.pdf
+      - href: cv.qmd
         text: CV
 
     # tools:

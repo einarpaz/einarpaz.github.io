@@ -14,7 +14,7 @@ about:
     #   href: https://scholar.google.com/citations?user=YOURID
     - icon: file-earmark-text
       text: CV
-      href: cv.pdf
+      href: cv.qmd
     # - icon: github
     #   text: GitHub
     #   href: https://github.com/yourusername
