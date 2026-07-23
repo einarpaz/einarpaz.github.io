@@ -1,6 +1,6 @@
 ---
 title: "Einar Paz"
-subtitle: "Department of Economics <br> The University of Texas at Austin"
+subtitle: "Department of Economics<br>The University of Texas at Austin"
 about: 
   template: trestles
   image: images/profile.png
