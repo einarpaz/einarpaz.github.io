@@ -2,6 +2,6 @@
 title: "CV"
 ---
 
-[Download PDF](cv.pdf){target="_blank"} 
+[Download PDF](cv_2026.pdf.pdf){target="_blank"} 
 
-<iframe src="cv.pdf" width="100%" height="900px" style="border: 1px solid #d9dee3;"></iframe>
+<iframe src="cv_2026.pdf" width="100%" height="900px" style="border: 1px solid #d9dee3;"></iframe>
