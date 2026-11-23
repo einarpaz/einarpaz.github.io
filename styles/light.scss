@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+// ---------- LIGHT THEME ----------
+// Main blue: deep sapphire-navy. Accent: muted gold (used sparingly).
+$navy:        #14305a;
+$sapphire:    #1f4f96;
+$gold:        #a8761f;
+
+$body-bg:     #fcfcfd;
+$body-color:  #1a1d23;
+$primary:     $sapphire;
+$link-color:  $sapphire;
+$secondary:   #5b6472;
+
+$navbar-bg:   #fcfcfd;
+$navbar-fg:   #3a4250;
+$navbar-hl:   $sapphire;
+$footer-bg:   #fcfcfd;
+$footer-fg:   #6b7380;
+
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family:   "Newsreader", Georgia, "Times New Roman", serif;
+$headings-color:         $navy;
+$headings-font-weight:   500;
+$font-size-root:         17px;
+$line-height-base:       1.65;
+$border-color:           #e1e5eb;
+
+/*-- scss:rules --*/
+:root {
+  --ep-navy: #{$navy};
+  --ep-blue: #{$sapphire};
+  --ep-gold: #{$gold};
+  --ep-muted: #5b6472;
+  --ep-rule: #e1e5eb;
+  --ep-chip-bg: #eef3fa;
+  --ep-chip-bg-hover: #{$sapphire};
+  --ep-chip-fg-hover: #ffffff;
+  --ep-card-bg: #ffffff;
+}

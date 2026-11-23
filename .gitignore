@@ -1,2 +1,6 @@
 /.quarto/
 **/*.quarto_ipynb
+# Private notes: never uploaded to GitHub, never published
+_private-notes/
+
+/.luarc.json

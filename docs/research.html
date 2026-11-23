@@ -40,10 +40,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6a3cbf34ab77af068ede52fa23347189.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-84d5f2a4787a9f80a92febe3aaf9b1fe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-6a3cbf34ab77af068ede52fa23347189.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,12 +75,192 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles/custom.css">
+<meta property="og:title" content="Research – Einar Paz">
+<meta property="og:site_name" content="Einar Paz">
+<meta name="twitter:title" content="Research – Einar Paz">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -112,6 +296,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -123,6 +308,7 @@ ul.task-list li input[type="checkbox"] {
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -143,38 +329,67 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<section id="rational-inattention-in-wage-growth-expectations" class="level3 research-item">
-<h3 class="anchored" data-anchor-id="rational-inattention-in-wage-growth-expectations">Rational Inattention in Wage Growth Expectations</h3>
-<div class="research-meta">
-<p><strong>Draft:</strong> Coming soon <!-- **Draft:** [PDF](paz-rational-inattention-wage-expectations.pdf){target="_blank"} --> <!-- [Paper](paper.pdf){target="_blank"} · [Slides](slides.pdf){target="_blank"} · [Replication files](https://github.com/USERNAME/REPOSITORY){target="_blank"} --></p>
+<section id="current-research" class="level2">
+<h2 class="anchored" data-anchor-id="current-research">Current Research</h2>
+<div class="paper-list">
+<article class="paper">
+<div class="paper-title">
+The Prices That Shape Household Inflation Expectations
 </div>
-<p>Using data from the New York Fed’s Survey of Consumer Expectations, I document that wage growth expectations remain anchored and unresponsive even during inflationary episodes in which inflation expectations respond strongly. To explain these patterns, I develop a rational inattention model embedded in a standard New Keynesian framework with price and wage rigidities. Households cannot disentangle two structural shocks that have similar effects on inflation but opposite effects on wage growth. As a result, their inferred effects on expected wage growth partially offset, generating muted wage growth expectations consistent with the survey evidence.</p>
-</section>
-</section>
-<section id="work-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="work-in-progress">Work in Progress</h2>
-<section id="memory-frequency-bias-and-inflation-expectations" class="level3 research-item">
-<h3 class="anchored" data-anchor-id="memory-frequency-bias-and-inflation-expectations">Memory, Frequency Bias, and Inflation Expectations</h3>
-<div class="research-meta">
-<!-- **Draft:** In progress -->
+<div class="paper-status">
+Work in progress
 </div>
-<!-- Briefly describe the research question, methodology, and expected contribution of the project. Two or three sentences are generally enough for a work in progress. -->
-</section>
-<section id="subjective-inflation-unemployment-beliefs" class="level3 research-item">
-<h3 class="anchored" data-anchor-id="subjective-inflation-unemployment-beliefs">Subjective Inflation-Unemployment Beliefs</h3>
-<div class="research-meta">
-<p><strong>With:</strong> <a href="https://anushkamitra.com/" target="_blank">Anushka Mitra</a> and <a href="https://srivastava-prachi.github.io/" target="_blank">Prachi Srivastava</a> <!-- **Draft:** In progress --></p>
+</article>
+<article class="paper">
+<div class="paper-title">
+Rational Inattention in Wage Growth Expectations
 </div>
-<!-- Briefly describe the project here. -->
-</section>
-<section id="the-macroeconomic-impacts-of-weather-shocks-insights-from-the-enso-phenomenon" class="level3 research-item">
-<h3 class="anchored" data-anchor-id="the-macroeconomic-impacts-of-weather-shocks-insights-from-the-enso-phenomenon">The Macroeconomic Impacts of Weather Shocks: Insights from the ENSO Phenomenon</h3>
-<div class="research-meta">
-<p><strong>Draft:</strong> Available upon request.</p>
+<div class="paper-status">
+Working paper
+</div>
+<details class="paper-toggle toggle-abstract"><summary><span class="toggle-icon" aria-hidden="true"></span>Abstract</summary><div class="toggle-body">
+<p>Using data from the New York Fed’s Survey of Consumer Expectations, I document that wage growth expectations display highly anchored and unresponsive behavior, even during inflationary episodes in which inflation expectations respond strongly. To explain these patterns, I develop a rational inattention framework embedded in an otherwise standard New Keynesian model with price and wage rigidities. The economy is subject to two structural shocks: a cost-push shock that raises inflation while reducing wage growth, and a wage-markup shock that increases both. Households optimally observe a single noisy signal that is a linear combination of the two shocks. Because both shocks raise prices, households’ expectations of inflation respond in the standard attenuated fashion typical of rational inattention. However, because the two shocks have opposite implications for wage growth and households cannot disentangle their contributions, their inferred effects on expected wage growth partially offset each other, producing muted and unresponsive wage growth expectations consistent with the survey evidence.</p>
+</div></details>
+<details class="paper-toggle toggle-presentations"><summary><span class="toggle-icon" aria-hidden="true"></span>Presentations</summary><div class="toggle-body">
+<ul>
+<li>Economics Graduate Student Conference, Washington University in St.&nbsp;Louis, 2026</li>
+<li>Midwest Macroeconomics Meetings, Texas Tech University, 2026</li>
+</ul>
+</div></details>
+</article>
+<article class="paper">
+<div class="paper-title">
+Inflation and Unemployment in Household Expectations: Evidence from German Households
+</div>
+<div class="paper-coauthors">
+with <a href="https://anushkamitra.com/" target="_blank" rel="noopener">Anushka Mitra</a> and <a href="https://srivastava-prachi.github.io/" target="_blank" rel="noopener">Prachi Srivastava</a>
+</div>
+<div class="paper-status">
+Work in progress
+</div>
+<details class="paper-toggle toggle-abstract"><summary><span class="toggle-icon" aria-hidden="true"></span>Abstract</summary><div class="toggle-body">
+<p>This project investigates how households perceive the relationship between inflation and unemployment, motivated by a puzzling pattern in the ECB Consumer Expectations Survey (CES): households expecting higher inflation also tend to expect higher unemployment. This positive association contrasts with the conventional Phillips-curve relationship and raises questions about the economic mechanisms underlying households’ beliefs. To investigate these perceptions, we designed a randomized survey experiment embedded in the Bundesbank Online Panel – Households (BOP-HH), combining hypothetical inflation scenarios with questions on the mechanisms and narratives shaping respondents’ beliefs. The questionnaire module was approved and implemented by the Deutsche Bundesbank in October 2026, providing the basis for new evidence on how households understand the relationship between inflation and unemployment.</p>
+</div></details>
+</article>
+<article class="paper">
+<div class="paper-title">
+The Macroeconomic Impacts of Weather Shocks: Insights from the ENSO Phenomenon
+</div>
+<div class="paper-status">
+Draft available upon request
+</div>
+</article>
 </div>
 </section>
+<section id="pre-phd-publications" class="level2">
+<h2 class="anchored" data-anchor-id="pre-phd-publications">Pre-PhD Publications</h2>
+<div class="pub-list">
+<ul>
+<li>“Analysis of Exchange Rate Expectations in Bolivia” (in Spanish). <em>Revista de Análisis del Banco Central de Bolivia</em>, Vol. 35, 2021.</li>
+<li>“The Aggregate Matching Function for the Chilean Labor Market” (in Spanish). <em>Economic Analysis Review</em>, Vol. 34 (1), pp.&nbsp;85–110, 2019.</li>
+<li>“Analysis of the Bolivian Business Cycle with Markov-Switching Models” (in Spanish). <em>Revista de Análisis del Banco Central de Bolivia</em>, Vol. 27, pp.&nbsp;63–90, 2017.</li>
+</ul>
+</div>
 
 
 </section>
@@ -182,6 +397,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -253,7 +481,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/einarpaz\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -584,18 +812,19 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
 <p>© 2026 Einar Paz</p>
-</div>
-    <div class="nav-footer-right">
+</div>   
+    <div class="nav-footer-center">
       &nbsp;
     </div>
+    <div class="nav-footer-right">
+<p>Department of Economics · The University of Texas at Austin</p>
+</div>
   </div>
 </footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

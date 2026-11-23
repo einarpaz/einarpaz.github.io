@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+// ---------- DARK THEME ----------
+// Same palette, lifted for contrast on a navy-tinted charcoal background.
+$bg:          #0f1520;
+$text:        #e4e8ee;
+$blue-light:  #8db4ee;
+$heading:     #dbe6f7;
+$gold:        #d8b46a;
+
+$body-bg:     $bg;
+$body-color:  $text;
+$primary:     $blue-light;
+$link-color:  $blue-light;
+$secondary:   #9aa4b2;
+
+$navbar-bg:   $bg;
+$navbar-fg:   #c3cad5;
+$navbar-hl:   $blue-light;
+$footer-bg:   $bg;
+$footer-fg:   #8a94a3;
+
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family:   "Newsreader", Georgia, "Times New Roman", serif;
+$headings-color:         $heading;
+$headings-font-weight:   500;
+$font-size-root:         17px;
+$line-height-base:       1.65;
+$border-color:           #253042;
+
+/*-- scss:rules --*/
+:root {
+  --ep-navy: #{$heading};
+  --ep-blue: #{$blue-light};
+  --ep-gold: #{$gold};
+  --ep-muted: #9aa4b2;
+  --ep-rule: #253042;
+  --ep-chip-bg: #18243a;
+  --ep-chip-bg-hover: #{$blue-light};
+  --ep-chip-fg-hover: #0f1520;
+  --ep-card-bg: #141c2a;
+}

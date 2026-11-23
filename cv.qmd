@@ -2,6 +2,17 @@
 title: "CV"
 ---
 
-[Download PDF](cv_2026.pdf.pdf){target="_blank"} 
+::: {.cv-bar}
+[Last updated: November 2026]{.cv-updated}
 
-<iframe src="cv_2026.pdf" width="100%" height="900px" style="border: 1px solid #d9dee3;"></iframe>
+[<i class="bi bi-download"></i> Download PDF](files/cv.pdf){.cv-download download="Einar-Paz-CV.pdf"}
+[<i class="bi bi-box-arrow-up-right"></i> Open in new tab](files/cv.pdf){.cv-download .cv-secondary target="_blank"}
+:::
+
+<div class="cv-frame">
+<iframe src="files/cv.pdf#view=FitH" title="CV of Einar Paz" loading="lazy"></iframe>
+</div>
+
+::: {.cv-mobile-note}
+On a phone the preview may show only the first page. Use **Download PDF** above to read the full CV.
+:::

@@ -1,10 +1,23 @@
+# =====================================================================
+#  SITE SETTINGS  (applies to every page)
+# =====================================================================
 project:
   type: website
-  output-dir: docs
+  output-dir: docs          # GitHub Pages publishes from this folder
+  render:
+    - "*.qmd"               # only .qmd files become pages
+  resources:
+    - files/                # CV, paper PDFs, slides... copied as-is
+    - images/
 
 website:
   title: "Einar Paz"
+  site-url: "https://einarpaz.github.io"
+  description: "Einar Paz, PhD student in Economics at the University of Texas at Austin. Macroeconomics, expectations, and monetary economics."
   favicon: images/favicon.svg
+  open-graph: true           # nice preview card when the link is shared
+  twitter-card: true
+  page-navigation: false
   navbar:
     left:
       - href: index.qmd
@@ -15,22 +28,27 @@ website:
         text: Teaching
       - href: cv.qmd
         text: CV
-
-    # tools:
-    #   - icon: linkedin
-    #     href: "https://www.linkedin.com/in/einar-paz-6a639aa2/"
-    #     aria-label: LinkedIn
-    #     target: _blank
-
-    #   - icon: envelope
-    #     href: "mailto:einarpaz@utexas.edu"
-    #     aria-label: Email
-
+      # To add a page later: create e.g. talks.qmd and add
+      # - href: talks.qmd
+      #   text: Talks
   page-footer:
-    center: "© 2026 Einar Paz"
+    left: "© 2026 Einar Paz"
+    right: "Department of Economics · The University of Texas at Austin"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, styles/light.scss]
+      dark: [cosmo, styles/dark.scss]
+    respect-user-color-scheme: true   # first visit follows the visitor's system setting
+    css: styles/custom.css
     toc: false
+    smooth-scroll: true
+    html-math-method: katex           # fast math: write $\pi_t$ anywhere
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+

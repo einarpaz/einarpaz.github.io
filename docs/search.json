@@ -1,65 +1,58 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Einar Paz",
-    "section": "",
-    "text": "Welcome!\nI am a PhD student in Economics at The University of Texas at Austin.\nMy research interests are in macroeconomics, behavioral macroeconomics, monetary economics, and labor economics."
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Einar Paz",
-    "section": "Contact",
-    "text": "Contact\nDepartment of Economics\nThe University of Texas at Austin\nAustin, Texas\nEmail: einarpaz@utexas.edu\n\nCurriculum Vitae · LinkedIn"
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Introduction to Macroeconomics, Summer 2026\n\n\n\n\n\nMacroeconomics II (PhD), Spring 2026\nIntroduction to Macroeconomics, Introduction to Microeconomics, Evolution of Economic Thought, Economic Statistics (Undergraduate), Fall 2022 - Fall 2025"
+    "text": "Assistant Instructor\n\nIntroduction to Macroeconomics (Undergraduate) Summer 2026\n\n\n\nGraduate Teaching Assistant\n\nInternational Macroeconomics (Master’s) Fall 2026\n\n\nMacroeconomics II (PhD) Spring 2026\n\n\nIntroduction to Macroeconomics, Introduction to Microeconomics, Evolution of Economic Thought, Economic Statistics (Undergraduate) Fall 2022 – Fall 2025"
   },
   {
     "objectID": "teaching.html#the-university-of-texas-at-austin",
     "href": "teaching.html#the-university-of-texas-at-austin",
     "title": "Teaching",
     "section": "",
-    "text": "Introduction to Macroeconomics, Summer 2026\n\n\n\n\n\nMacroeconomics II (PhD), Spring 2026\nIntroduction to Macroeconomics, Introduction to Microeconomics, Evolution of Economic Thought, Economic Statistics (Undergraduate), Fall 2022 - Fall 2025"
+    "text": "Assistant Instructor\n\nIntroduction to Macroeconomics (Undergraduate) Summer 2026\n\n\n\nGraduate Teaching Assistant\n\nInternational Macroeconomics (Master’s) Fall 2026\n\n\nMacroeconomics II (PhD) Spring 2026\n\n\nIntroduction to Macroeconomics, Introduction to Microeconomics, Evolution of Economic Thought, Economic Statistics (Undergraduate) Fall 2022 – Fall 2025"
   },
   {
     "objectID": "teaching.html#universidad-alberto-hurtado-santiago-chile",
     "href": "teaching.html#universidad-alberto-hurtado-santiago-chile",
     "title": "Teaching",
     "section": "Universidad Alberto Hurtado, Santiago, Chile",
-    "text": "Universidad Alberto Hurtado, Santiago, Chile\n\nGraduate Teaching Assistant\n\nMacroeconomics I (Master), Fall 2016"
+    "text": "Universidad Alberto Hurtado, Santiago, Chile\n\nGraduate Teaching Assistant\n\nMacroeconomics I (Master’s) Fall 2016"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Einar Paz",
     "section": "",
-    "text": "Draft: Coming soon  \n\nUsing data from the New York Fed’s Survey of Consumer Expectations, I document that wage growth expectations remain anchored and unresponsive even during inflationary episodes in which inflation expectations respond strongly. To explain these patterns, I develop a rational inattention model embedded in a standard New Keynesian framework with price and wage rigidities. Households cannot disentangle two structural shocks that have similar effects on inflation but opposite effects on wage growth. As a result, their inferred effects on expected wage growth partially offset, generating muted wage growth expectations consistent with the survey evidence."
-  },
-  {
-    "objectID": "research.html#working-papers",
-    "href": "research.html#working-papers",
-    "title": "Research",
-    "section": "",
-    "text": "Draft: Coming soon  \n\nUsing data from the New York Fed’s Survey of Consumer Expectations, I document that wage growth expectations remain anchored and unresponsive even during inflationary episodes in which inflation expectations respond strongly. To explain these patterns, I develop a rational inattention model embedded in a standard New Keynesian framework with price and wage rigidities. Households cannot disentangle two structural shocks that have similar effects on inflation but opposite effects on wage growth. As a result, their inferred effects on expected wage growth partially offset, generating muted wage growth expectations consistent with the survey evidence."
-  },
-  {
-    "objectID": "research.html#work-in-progress",
-    "href": "research.html#work-in-progress",
-    "title": "Research",
-    "section": "Work in Progress",
-    "text": "Work in Progress\n\nMemory, Frequency Bias, and Inflation Expectations\n\n\n\n\n\n\nSubjective Inflation-Unemployment Beliefs\n\nWith: Anushka Mitra and Prachi Srivastava \n\n\n\n\nThe Macroeconomic Impacts of Weather Shocks: Insights from the ENSO Phenomenon\n\nDraft: Available upon request."
+    "text": "Einar Paz\nPhD Student in Economics\nThe University of Texas at Austin\nEmailCVLinkedIn\n\n\nWelcome! I am a PhD student in Economics at The University of Texas at Austin.\nMy research interests are in macroeconomics, behavioral macroeconomics, and monetary economics. In particular, I study how households and firms form expectations, and how these beliefs shape macroeconomic dynamics and the transmission of monetary policy.\n\nResearch fields\nMacroeconomics · Behavioral Macroeconomics · Monetary Economics\n\n\nContact\nDepartment of Economics, The University of Texas at Austin 2225 Speedway, Austin, TX 78712 einarpaz@utexas.edu"
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Download PDF"
+    "text": "Last updated: November 2026\n Download PDF  Open in new tab\n\n\n\n\n\n\nOn a phone the preview may show only the first page. Use Download PDF above to read the full CV."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "The Prices That Shape Household Inflation Expectations\n\n\nWork in progress\n\n\n\n\nRational Inattention in Wage Growth Expectations\n\n\nWorking paper\n\nAbstract\nUsing data from the New York Fed’s Survey of Consumer Expectations, I document that wage growth expectations display highly anchored and unresponsive behavior, even during inflationary episodes in which inflation expectations respond strongly. To explain these patterns, I develop a rational inattention framework embedded in an otherwise standard New Keynesian model with price and wage rigidities. The economy is subject to two structural shocks: a cost-push shock that raises inflation while reducing wage growth, and a wage-markup shock that increases both. Households optimally observe a single noisy signal that is a linear combination of the two shocks. Because both shocks raise prices, households’ expectations of inflation respond in the standard attenuated fashion typical of rational inattention. However, because the two shocks have opposite implications for wage growth and households cannot disentangle their contributions, their inferred effects on expected wage growth partially offset each other, producing muted and unresponsive wage growth expectations consistent with the survey evidence.\n\nPresentations\n\nEconomics Graduate Student Conference, Washington University in St. Louis, 2026\nMidwest Macroeconomics Meetings, Texas Tech University, 2026\n\n\n\n\n\nInflation and Unemployment in Household Expectations: Evidence from German Households\n\n\nwith Anushka Mitra and Prachi Srivastava\n\n\nWork in progress\n\nAbstract\nThis project investigates how households perceive the relationship between inflation and unemployment, motivated by a puzzling pattern in the ECB Consumer Expectations Survey (CES): households expecting higher inflation also tend to expect higher unemployment. This positive association contrasts with the conventional Phillips-curve relationship and raises questions about the economic mechanisms underlying households’ beliefs. To investigate these perceptions, we designed a randomized survey experiment embedded in the Bundesbank Online Panel – Households (BOP-HH), combining hypothetical inflation scenarios with questions on the mechanisms and narratives shaping respondents’ beliefs. The questionnaire module was approved and implemented by the Deutsche Bundesbank in October 2026, providing the basis for new evidence on how households understand the relationship between inflation and unemployment.\n\n\n\n\nThe Macroeconomic Impacts of Weather Shocks: Insights from the ENSO Phenomenon\n\n\nDraft available upon request"
+  },
+  {
+    "objectID": "research.html#current-research",
+    "href": "research.html#current-research",
+    "title": "Research",
+    "section": "",
+    "text": "The Prices That Shape Household Inflation Expectations\n\n\nWork in progress\n\n\n\n\nRational Inattention in Wage Growth Expectations\n\n\nWorking paper\n\nAbstract\nUsing data from the New York Fed’s Survey of Consumer Expectations, I document that wage growth expectations display highly anchored and unresponsive behavior, even during inflationary episodes in which inflation expectations respond strongly. To explain these patterns, I develop a rational inattention framework embedded in an otherwise standard New Keynesian model with price and wage rigidities. The economy is subject to two structural shocks: a cost-push shock that raises inflation while reducing wage growth, and a wage-markup shock that increases both. Households optimally observe a single noisy signal that is a linear combination of the two shocks. Because both shocks raise prices, households’ expectations of inflation respond in the standard attenuated fashion typical of rational inattention. However, because the two shocks have opposite implications for wage growth and households cannot disentangle their contributions, their inferred effects on expected wage growth partially offset each other, producing muted and unresponsive wage growth expectations consistent with the survey evidence.\n\nPresentations\n\nEconomics Graduate Student Conference, Washington University in St. Louis, 2026\nMidwest Macroeconomics Meetings, Texas Tech University, 2026\n\n\n\n\n\nInflation and Unemployment in Household Expectations: Evidence from German Households\n\n\nwith Anushka Mitra and Prachi Srivastava\n\n\nWork in progress\n\nAbstract\nThis project investigates how households perceive the relationship between inflation and unemployment, motivated by a puzzling pattern in the ECB Consumer Expectations Survey (CES): households expecting higher inflation also tend to expect higher unemployment. This positive association contrasts with the conventional Phillips-curve relationship and raises questions about the economic mechanisms underlying households’ beliefs. To investigate these perceptions, we designed a randomized survey experiment embedded in the Bundesbank Online Panel – Households (BOP-HH), combining hypothetical inflation scenarios with questions on the mechanisms and narratives shaping respondents’ beliefs. The questionnaire module was approved and implemented by the Deutsche Bundesbank in October 2026, providing the basis for new evidence on how households understand the relationship between inflation and unemployment.\n\n\n\n\nThe Macroeconomic Impacts of Weather Shocks: Insights from the ENSO Phenomenon\n\n\nDraft available upon request"
+  },
+  {
+    "objectID": "research.html#pre-phd-publications",
+    "href": "research.html#pre-phd-publications",
+    "title": "Research",
+    "section": "Pre-PhD Publications",
+    "text": "Pre-PhD Publications\n\n\n“Analysis of Exchange Rate Expectations in Bolivia” (in Spanish). Revista de Análisis del Banco Central de Bolivia, Vol. 35, 2021.\n“The Aggregate Matching Function for the Chilean Labor Market” (in Spanish). Economic Analysis Review, Vol. 34 (1), pp. 85–110, 2019.\n“Analysis of the Bolivian Business Cycle with Markov-Switching Models” (in Spanish). Revista de Análisis del Banco Central de Bolivia, Vol. 27, pp. 63–90, 2017."
   }
 ]

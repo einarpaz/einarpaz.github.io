@@ -1,30 +1,44 @@
 ---
-title: "Einar Paz"
-subtitle: "Department of Economics<br>The University of Texas at Austin"
-about: 
-  template: trestles
-  image: images/profile.png
-  image-shape: round
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:einarpaz@utexas.edu
-    # - icon: mortarboard-fill
-    #   text: Google Scholar
-    #   href: https://scholar.google.com/citations?user=YOURID
-    - icon: file-earmark-text
-      text: CV
-      href: cv.qmd
-    # - icon: github
-    #   text: GitHub
-    #   href: https://github.com/yourusername
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/einar-paz-6a639aa2
+pagetitle: "Einar Paz · Economics, UT Austin"
+metadata-files:
+  - data/links.yml
+page-layout: full
+title-block-banner: false
+image: images/profile.jpg
 ---
 
-Welcome!
+::: {.home-grid}
 
-I am a PhD student in Economics at [The University of Texas at Austin](https://liberalarts.utexas.edu/economics/){target="_blank"}.
+::: {.home-card}
+![](images/profile.jpg){.home-photo fig-alt="Photo of Einar Paz"}
 
-My research interests are in macroeconomics, behavioral macroeconomics, monetary economics, and labor economics.
+[Einar Paz]{.home-name}
+
+[PhD Student in Economics]{.home-role}
+
+[[The University of Texas at Austin](https://liberalarts.utexas.edu/economics/){target="_blank"}]{.home-affil}
+
+{{< profile-links >}}
+:::
+
+::: {.home-bio}
+Welcome! I am a PhD student in Economics at [The University of Texas at Austin](https://liberalarts.utexas.edu/economics/){target="_blank"}.
+
+My research interests are in macroeconomics, behavioral macroeconomics, and monetary economics. In particular, I study how households and firms form expectations, and how these beliefs shape macroeconomic dynamics and the transmission of monetary policy.
+
+::: {.home-fields}
+[Research fields]{.label-caps}
+
+Macroeconomics · Behavioral Macroeconomics · Monetary Economics
+:::
+
+::: {.home-contact}
+[Contact]{.label-caps}
+
+Department of Economics, The University of Texas at Austin<br>
+2225 Speedway, Austin, TX 78712<br>
+[einarpaz@utexas.edu](mailto:einarpaz@utexas.edu)
+:::
+:::
+
+:::

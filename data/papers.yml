@@ -1,0 +1,83 @@
+# =====================================================================
+#  PAPERS  — edit this file to update the Research page.
+#
+#  Each paper is a block starting with "- title:". Fields:
+#    section:   wp (working paper) or wip (work in progress). Right now the
+#               Research page shows both together under "Current Research";
+#               see research.qmd to split them into two headings later.
+#    status:    small line under the title, e.g. "Draft coming soon",
+#               "Submitted", "Revise & Resubmit, Journal of ..."
+#    coauthors: list of name + url (url optional). Delete the block if none.
+#    links:     a button appears ONLY when its link is filled in.
+#               Leave "" to hide it. Local files go in files/papers/.
+#    abstract:  text after "|" (indented). Leave "" for no Abstract toggle.
+#               Math works: $\pi_t$, $E_t[w_{t+1}]$.
+#    presentations: optional list; shows a "Presentations" toggle.
+#    new: true   -> small "New" badge          jmp: true -> "Job Market Paper" badge
+#    hide: true  -> paper disappears from the site (kept here for later)
+#  The order here is the order on the page: put the paper you want
+#  people to see first (your future JMP) at the top.
+# =====================================================================
+
+papers:
+
+  - title: "The Prices That Shape Household Inflation Expectations"
+    section: wip
+    status: "Work in progress"
+    links:
+      paper: ""
+      appendix: ""
+      slides: ""
+      code: ""
+      data: ""
+    abstract: ""         # add a short, general description when you are ready
+
+  - title: "Rational Inattention in Wage Growth Expectations"
+    section: wp
+    status: "Working paper"
+    jmp: false
+    links:
+      paper: ""          # files/papers/paz-rational-inattention-wage-expectations.pdf (add once the revised version is ready)
+      appendix: ""
+      slides: ""
+      code: ""           # e.g. https://github.com/einarpaz/repo
+      data: ""
+      extra: []          # e.g. - label: "Policy brief"
+                         #        url: "files/papers/brief.pdf"
+    abstract: |
+      Using data from the New York Fed’s Survey of Consumer Expectations, I document that wage growth expectations display highly anchored and unresponsive behavior, even during inflationary episodes in which inflation expectations respond strongly. To explain these patterns, I develop a rational inattention framework embedded in an otherwise standard New Keynesian model with price and wage rigidities. The economy is subject to two structural shocks: a cost-push shock that raises inflation while reducing wage growth, and a wage-markup shock that increases both. Households optimally observe a single noisy signal that is a linear combination of the two shocks. Because both shocks raise prices, households’ expectations of inflation respond in the standard attenuated fashion typical of rational inattention. However, because the two shocks have opposite implications for wage growth and households cannot disentangle their contributions, their inferred effects on expected wage growth partially offset each other, producing muted and unresponsive wage growth expectations consistent with the survey evidence.
+    presentations:
+      - "Economics Graduate Student Conference, Washington University in St. Louis, 2026"
+      - "Midwest Macroeconomics Meetings, Texas Tech University, 2026"
+
+  - title: "Inflation and Unemployment in Household Expectations: Evidence from German Households"
+    section: wip
+    status: "Work in progress"
+    coauthors:
+      - name: "Anushka Mitra"
+        url: "https://anushkamitra.com/"
+      - name: "Prachi Srivastava"
+        url: "https://srivastava-prachi.github.io/"
+    links:
+      paper: ""
+      slides: ""
+    abstract: |
+      This project investigates how households perceive the relationship between inflation and unemployment, motivated by a puzzling pattern in the ECB Consumer Expectations Survey (CES): households expecting higher inflation also tend to expect higher unemployment. This positive association contrasts with the conventional Phillips-curve relationship and raises questions about the economic mechanisms underlying households' beliefs. To investigate these perceptions, we designed a randomized survey experiment embedded in the Bundesbank Online Panel – Households (BOP-HH), combining hypothetical inflation scenarios with questions on the mechanisms and narratives shaping respondents' beliefs. The questionnaire module was approved and implemented by the Deutsche Bundesbank in October 2026, providing the basis for new evidence on how households understand the relationship between inflation and unemployment.
+
+  - title: "The Macroeconomic Impacts of Weather Shocks: Insights from the ENSO Phenomenon"
+    section: wip
+    status: "Draft available upon request"
+    links:
+      paper: ""
+    abstract: ""
+
+# =====================================================================
+#  PRE-PhD PUBLICATIONS — one line each. "url" adds a small Link button.
+# =====================================================================
+publications:
+  - citation: '"Analysis of Exchange Rate Expectations in Bolivia" (in Spanish). *Revista de Análisis del Banco Central de Bolivia*, Vol. 35, 2021.'
+    url: ""
+  - citation: '"The Aggregate Matching Function for the Chilean Labor Market" (in Spanish). *Economic Analysis Review*, Vol. 34 (1), pp. 85–110, 2019.'
+    url: ""
+  - citation: '"Analysis of the Bolivian Business Cycle with Markov-Switching Models" (in Spanish). *Revista de Análisis del Banco Central de Bolivia*, Vol. 27, pp. 63–90, 2017.'
+    url: ""

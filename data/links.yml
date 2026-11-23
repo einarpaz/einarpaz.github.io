@@ -1,0 +1,30 @@
+# =====================================================================
+#  CONTACT & PROFILE LINKS (shown under your photo on the Home page)
+#  show: true  -> visible      show: false -> hidden
+#  Order here = order on the page.
+# =====================================================================
+links:
+  - label: "Email"
+    icon: "bi bi-envelope"
+    url: "mailto:einarpaz@utexas.edu"
+    show: true
+
+  - label: "CV"
+    icon: "bi bi-file-earmark-person"
+    url: "cv.html"
+    show: true
+
+  - label: "Google Scholar"
+    icon: "ai ai-google-scholar"
+    url: "https://scholar.google.com/citations?user=mV71Cl0AAAAJ&hl=en"
+    show: false          # switch to true once a PhD working paper is indexed
+
+  - label: "LinkedIn"
+    icon: "bi bi-linkedin"
+    url: "https://www.linkedin.com/in/einar-paz-6a639aa2/"
+    show: true
+
+  - label: "GitHub"
+    icon: "bi bi-github"
+    url: "https://github.com/einarpaz"
+    show: false          # switch to true once your GitHub profile has public content
