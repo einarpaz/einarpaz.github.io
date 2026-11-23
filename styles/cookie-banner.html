@@ -1,0 +1,22 @@
+<script>
+// Replaces the generic cookie-banner text with an accurate, short message.
+document.addEventListener('DOMContentLoaded', function () {
+  function fix() {
+    var nb = document.querySelector('.termsfeed-com---nb');
+    if (!nb) return false;
+    var t = nb.querySelector('.cc-nb-title');
+    var x = nb.querySelector('.cc-nb-text');
+    var a = nb.querySelector('.cc-nb-okagree');
+    var r = nb.querySelector('.cc-nb-reject');
+    if (t) t.textContent = 'Visitor statistics';
+    if (x) x.textContent = 'This site uses Google Analytics cookies to count visits and see which countries they come from. Nothing is collected unless you accept.';
+    if (a) a.textContent = 'Accept';
+    if (r) r.textContent = 'Decline';
+    return true;
+  }
+  if (!fix()) {
+    var o = new MutationObserver(function () { if (fix()) o.disconnect(); });
+    o.observe(document.body, { childList: true, subtree: true });
+  }
+});
+</script>

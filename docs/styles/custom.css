@@ -105,6 +105,48 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; text-decoratio
 .quarto-color-scheme-toggle.alternate .bi::before { content: "\f5a2"; }   /* sun: switch to light */
 .quarto-color-scheme-toggle.alternate::after { content: "Light"; }
 
+/* Cookie banner: small card in the site's colors instead of the default green box */
+.termsfeed-com---nb-simple {
+  max-width: 360px !important;
+  right: 1.2rem !important;
+  bottom: 1.2rem !important;
+  left: auto !important;
+  border-radius: 10px !important;
+  border: 1px solid var(--ep-rule) !important;
+  background: var(--ep-card-bg) !important;
+  box-shadow: 0 10px 30px rgba(20, 48, 90, 0.18) !important;
+}
+.termsfeed-com---nb .cc-nb-main-container { padding: 1.1rem 1.25rem !important; }
+.termsfeed-com---nb .cc-nb-title {
+  font-family: "Newsreader", Georgia, serif !important;
+  font-size: 1.15rem !important;
+  font-weight: 500 !important;
+  color: var(--ep-navy) !important;
+  margin-bottom: 0.35rem !important;
+}
+.termsfeed-com---nb .cc-nb-text {
+  font-family: "Source Sans 3", sans-serif !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  color: var(--ep-muted) !important;
+  margin-bottom: 0.9rem !important;
+}
+.termsfeed-com---nb .cc-nb-okagree,
+.termsfeed-com---nb .cc-nb-reject {
+  font-family: "Source Sans 3", sans-serif !important;
+  font-size: 0.88rem !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  padding: 0.4rem 1rem !important;
+  margin: 0 0.4rem 0 0 !important;
+}
+.termsfeed-com---nb .cc-nb-okagree { background: var(--ep-blue) !important; color: var(--ep-chip-fg-hover) !important; border: 1px solid var(--ep-blue) !important; }
+.termsfeed-com---nb .cc-nb-reject { background: transparent !important; color: var(--ep-blue) !important; border: 1px solid var(--ep-rule) !important; }
+.termsfeed-com---nb .cc-nb-changep { display: none !important; }   /* footer link "Cookie Preferences" covers this */
+@media (max-width: 576px) {
+  .termsfeed-com---nb-simple { right: 0.75rem !important; left: 0.75rem !important; bottom: 0.75rem !important; max-width: none !important; }
+}
+
 /* ---------- Footer ---------- */
 .nav-footer { border-top: 1px solid var(--ep-rule); font-size: 0.85rem; }
 
