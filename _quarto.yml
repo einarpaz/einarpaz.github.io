@@ -47,6 +47,7 @@ format:
     html-math-method: katex           # fast math: write $\pi_t$ anywhere
     include-in-header:
       - text: |
+          <meta name="google-site-verification" content="RZL7farxBcjlazhAO6sZXRCTPLHHdvAR6H0wS7SrOEg" />
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
